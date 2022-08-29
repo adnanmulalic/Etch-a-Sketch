@@ -1,5 +1,10 @@
 const bigDiv = document.querySelector('#big-div');
-for (let i = 0; i < 16; i++) {
+const selectedSquares = document.querySelector('#squares');
+const changer = document.querySelector('#changer');
+console.log(changer.getAttribute("value"));
+
+
+for (let i = 0; i < 8; i++) {
     const smallDiv = document.createElement('div');
     smallDiv.classList.add('small-div');
     bigDiv.appendChild(smallDiv);
