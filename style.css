@@ -1,10 +1,14 @@
 #big-div {
+    border: 2px solid blue;
     width: 720px;
-    min-height: 720px;
+    height: 720px;
     display: flex;
+    flex-wrap: wrap;
+    
 }
 .small-div {
     border: 1px solid black;
+    box-sizing: border-box;
     background-color: none;
     transition-duration: none;
 
