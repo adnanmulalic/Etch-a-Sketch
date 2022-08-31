@@ -1,9 +1,11 @@
 #big-div {
     border: 2px solid blue;
-    width: 720px;
-    height: 720px;
+    width: 680px;
+    height: 680px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .small-div {
@@ -12,6 +14,18 @@
     background-color: none;
     transition-duration: none;
 
+}
+.controls {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.squares, #X {
+    margin: 0.5em;
+}
+button {
+    margin: 0.5em;
 }
 /* .small-div:hover {
     background-color: grey;
